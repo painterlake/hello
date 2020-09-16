@@ -1,0 +1,15 @@
+Source: hello
+Section: devel
+Priority: optional
+Maintainer: bozhang <bozhang9407@163.com>
+Build-Depends: debhelper (>= 10), texinfo
+Standards-Version: 4.1.2
+Homepage: http://ftp.gnu.org/gnu/hello/
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/hello.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/hello.git
+
+Package: hello
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
